@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charest="UTF-8">
+    <meta name="desciption" content="Project:Draw Out Melodies">
+    <meta mame="keywords" content="art, music, project, gallery">
+    <meta name="author" content="Xiwen D. and Yingshi H.">
+    <title>Project Document</title>
+    <style>
+        body{
+            background-color: rgb(224, 139, 86);
+        }
+        #login{
+            width: 300px;
+            margin: 100px auto;
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+	<div id="welcome">
+        <h1>Draw Out Melodies</h1>
+        <h4>Where Music Become Art</h4>
+        <form action="">
+            <div class="Open">
+                <label form="unsername">Username</label>
+                <input type="text" id="unsername" name="username">
+            </div>
+            <div class="Open">
+                <label form="unsername">Password</label>
+                <input type="password" id="password" name="username">
+            </div>
+            <div class="form item">
+                <button type="submit">Log in</button>
+            </div>
+        </form>
+	</div>
+</body>
+</html>
